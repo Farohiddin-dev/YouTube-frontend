@@ -1,0 +1,141 @@
+
+.left_bloc_menu {
+    display: none;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.46);
+}
+
+.left_menu_scroll {
+    transform: translateX(-240px);
+    width: 240px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.blok_black {
+    flex: 1;
+}
+
+.button_logo {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    border-bottom: 1px solid #afafaf;
+    position: sticky;
+    top: 0;
+}
+
+.menu_width_scroll {
+    width: 100%;
+    padding: 12px 0;
+    overflow-y: hidden;
+}
+
+.menu_width_scroll div {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 24px;
+}
+
+.left_icons {
+    width: 23.99px;
+    height: 23.99px;
+    border: none;
+    margin-right: 24px;
+}
+
+.menu_width_scroll hr {
+    margin: 10px 0;
+}
+
+.menu_width_scroll p {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #606060;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0 24px;
+    margin: 10px 0;
+}
+
+.ch_imgs img{
+    width: 23.99px;
+    height: 23.99px;
+    border-radius: 50%;
+    margin-right: 24px;
+}
+
+.ch_imgs {
+    padding: 0 !important;
+}
+
+span a{
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #606060;
+    font-weight: 600;
+}
+span {
+    display: block;
+    padding: 0 24px;
+    margin: 10px 0;
+}
+
+.copyright {
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #a0a0a0;
+}
+
+
+.blok_black button {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+
+.menu_width_scroll div:hover {
+    background-color: #F2F2F2;
+}
+
+.menu_width_scroll div a {
+    color:  #606060;
+    font-family: sans-serif;
+    width: fit-content;
+    font-size: 14px;
+}
+
+.menu_width_scroll::-webkit-scrollbar {
+    background-color: transparent;
+    width: 8px;
+    height: 0px;
+}
+
+.menu_width_scroll::-webkit-scrollbar-button {
+    display: none;
+}
+
+.menu_width_scroll::-webkit-scrollbar-track-piece {
+    background: rgba(84, 80, 80, 0)
+}
+
+.menu_width_scroll::-webkit-scrollbar-thumb {
+    background: darkgray;
+}
+
+.menu_width_scroll:hover {
+    overflow-y: scroll;
+}

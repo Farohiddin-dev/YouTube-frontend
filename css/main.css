@@ -1,0 +1,292 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+button {
+    background-color: transparent;
+    outline: none;
+}
+
+.container {
+    display: flex;
+}
+.left_menu  {
+    width: 71px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+
+.button_menu {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.button_menu button {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: transparent;
+}
+
+button svg {
+    fill: #606060;
+}
+
+.left_bottom div {
+    text-align: center;
+    width: 72px;
+    height: 74px;
+    font-size: 10px;
+    font-family: sans-serif;
+    padding: 16px 0 14px;
+}
+
+.left_bottom div a {
+    color: #606060;
+    display: block;
+}
+
+.ku_icon, .ob_icon, .tr_icon, .hp_icon {
+    width: 23.99px;
+    height: 23.99px;
+    margin-bottom: 6px;
+    border: none
+}
+
+.left_bottom div:hover {
+    background-color: #F2F2F2;
+}
+
+.menu_video_container {
+    flex: 1;
+    display: flex;
+}
+
+.top_menu {
+    width: 100%;
+    padding-left: 71px;
+    height: 55.99px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    z-index: 0;
+}
+
+.yt_logo {
+    width: 80px;
+    height: 23.99px;
+    margin: 0 20px;
+}
+
+.search_input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input {
+    flex: 1;
+    height: 100%;
+}
+
+.input input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+}
+
+.btn_s {
+    width: 65px;
+    height: 30.59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #606060;
+    background-color: #F9F9F9;
+}
+
+.btn_s button {
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+.icons button {
+    width: 24.01px;
+    height: 24.01px;
+    border: none;
+    background-color: transparent;
+}
+
+.icons {
+    display: flex;
+    padding-right: 16px;
+    align-items: center;
+}
+
+.profil_img {
+    width: 59px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 1px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon_btn {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+
+.profil_img img {
+    width: 31.99px;
+    height: 31.99px;
+    border-radius: 50%;
+}
+
+.search_input {
+    width: 45%;
+    height: 31.59px;
+    border: 1px solid #606060;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.video_container {
+    height: 900px;
+    flex: 1;
+    background-color: #F9F9F9;
+    padding: 55.99px 0 0 71px;
+    margin: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video_bloks {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 24px;
+    width: 1122px;
+}
+
+body {
+    background-color:  #F9F9F9;
+}
+
+.video_bloc {
+    background-color: white;
+    width: 264.57px;
+    height: 241.35px;
+    margin: 0 8px 40px;
+}
+
+.video_cover {
+    height: 148.45px;
+    position: relative;
+}
+
+.video_cover span {
+    font-size: 12px;
+    display: inline !important;
+    padding: 2px 8px !important;
+    width: fit-content;
+    position: absolute;
+    bottom: -4px;
+    right: 4px;
+    background-color: rgba(12, 12, 12, 0.857);
+    border-radius: 3px;
+    color: white;
+}
+
+.video_cover img{
+    width: 264.57px;
+    height: 148.45px;
+}
+
+.video_details {
+    display: flex;
+    width: 264.57px;
+    height: 92.53px;
+}
+
+.avatar_ch_vid img {
+    width: 35.99px;
+    height: 35.99px;
+    border-radius: 50%;
+}
+
+.avatar_ch_vid {
+    padding:12px 12px 0 0;
+}
+
+.video_name {
+    width: 192.6px;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.video_txt_details {
+    width: 216.59px;
+    height: 92.53px;
+    padding: 12px 24px 0 0;
+}
+
+.video_channel_name a {
+    text-decoration: none;
+    color: #606060;
+    font-size: 14px;
+    font-family: roboto;
+    display: block;
+    padding: 10px 0 3px 0;
+}
+
+.meta_data span{
+    display: inline;
+    padding: 0;
+    font-size: 14px;
+    color: #606060;
+    font-family: sans-serif;
+}
